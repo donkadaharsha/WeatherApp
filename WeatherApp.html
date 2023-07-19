@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather App</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <h1>WEATHER APP</h1>
+            <div class="weather__header">
+                <form class="weather__search">
+                    <input type="text" 
+                    placeholder="Search for a city"
+                    class="weather__searchform">
+                </form>
+                
+            </div>
+            <div class="weather__body">
+                <h1 class="weather__city"></h1>
+                <div class="weather__datetime">
+                    <p></p>
+                </div>
+                <div class="weather__icon">
+                    <img src="http://openweathermap.org/img/wn/10d@4x.png">
+
+                </div>
+                <p class="weather__temperature">
+                    18&#176
+                </p>
+                <div class="weather__minmax">
+                    <p>Min : 12&#176</p>
+                    <p>Max : 17&#176</p>
+                </div>
+                </div>
+                <div class="westher__info">
+                    <div class="weather__card">
+                        <i class="fa-solid
+                        fa-temperature-full"></i>
+                        <div>
+                            <p>Feels like</p>
+                            <p class="weather__realfeel"></p>
+                        </div>
+                    </div>
+                <div class="westher__info">
+                    <div class="weather__card">
+                        <i class="fa-solid
+                        fa-droplet"></i>
+                        <div>
+                            <p>Humidity</p>
+                            <p class="weather__humidity"></p>
+                        </div>
+                    </div>
+                    <div class="westher__info">
+                        <div class="weather__card">
+                            <i class="fa-solid
+                            fa-wind"></i>
+                            <div>
+                                <p>Wind</p>
+                                <p class="weather__wind"></p>
+                            </div>
+                        </div>
+                        <div class="westher__info">
+                            <div class="weather__card">
+                                <i class="fa-solid
+                                fa-gauge-high"></i>
+                                <div>
+                                    <p>Pressure</p>
+                                    <p class="weather__pressure"></p>
+                                </div>
+                            </div>
+                            
+                </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://kit.fontawesome.com/422a082542.js" crossorigin="anonymous"></script>
+        <script src="WeatherApp.js"></script>
+    </body>
+
+
+</html>
