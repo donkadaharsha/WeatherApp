@@ -27,7 +27,7 @@ jobs:
     environment:
       name: github-pages
       # url: ${{ steps.deployment.outputs.page_url }}
-      url: ${{ steps.deployment.outputs.https://donkadaharsha.github.io/WeatherApp/ }}
+      url: ${{ https://donkadaharsha.github.io/WeatherApp/ }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
